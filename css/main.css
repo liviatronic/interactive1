@@ -5,7 +5,7 @@
      font-size: 20px;
  }
 
- .container {
+ #container {
      padding: 40px;
      max-width: 650px;
  }
@@ -27,11 +27,11 @@
      text-decoration: none;
  }
 
- li {
-     list-style-type: none;
+ ul {
+     padding-left: 0;
+     margin: 0 auto 10px auto;
  }
 
- li:last-of-type {
-     margin-bottom: 20px;
-     background-color: lightpink;
+ li {
+     list-style-type: none;
  }
