@@ -1,12 +1,37 @@
-/* reset styles */
+ /* begin styles */
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
+ body {
+     font-family: 'Space Mono', monospace;
+     font-size: 20px;
+ }
 
-/* begin styles */
+ .container {
+     padding: 40px;
+     max-width: 650px;
+ }
 
-body {
-    background-color: lightpink;
-}
+ h1 {
+     margin-bottom: 10px;
+ }
+
+ h3 {
+     margin-bottom: 6px;
+ }
+
+ .desc {
+     font-size: 30px;
+     margin-bottom: 30px;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ li {
+     list-style-type: none;
+ }
+
+ li:last-of-type {
+     margin-bottom: 20px;
+     background-color: lightpink;
+ }
