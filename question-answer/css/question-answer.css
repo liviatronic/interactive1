@@ -5,7 +5,7 @@
 }
 
 body {
-    background: black;
+    background: rgb(255, 85, 179);
     font-size: 100px;
 }
 
@@ -14,7 +14,10 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    color: rgb(255, 0, 170);
+    font-family: 'Monoton', cursive;
+    font-size: 8vw;
+    line-height: 1.1;
+    color: rgb(255, 255, 255);
     width: 100vw;
     height: 100vh;
 }
@@ -24,9 +27,9 @@ body {
 }
 
 /* hidden message */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     body {
-        background: yellow;
+        background: rgb(66, 21, 0);
     }
 
     #answer {
@@ -34,7 +37,10 @@ body {
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        color: black;
+        font-family: 'Fugaz One', cursive;
+        color: white;
+        font-size: 15vw;
+        line-height: 1.1;
         width: 100vw;
         height: 100vh;
     }

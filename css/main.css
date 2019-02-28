@@ -3,12 +3,15 @@
  body {
      font-family: 'Space Mono', monospace;
      font-size: 20px;
+     color: white;
+     background-color: blue;
  }
 
  #container {
      padding: 40px;
      max-width: 650px;
  }
+
 
  h1 {
      margin-bottom: 10px;
@@ -26,6 +29,7 @@
 
  a {
      text-decoration: none;
+     color: rgb(137, 214, 240);
  }
 
  ul {
